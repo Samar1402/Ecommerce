@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 import Product from "./Components/Product/Product";
 import Accessorie from "./Components/Accessorie";
 import Login from "./Components/Login";
-import Signup from "./Components/SignUp";
+import Signup from "./Components/Signup";
 import Cart from "./Components/Cart";
 
 const App = () => {
