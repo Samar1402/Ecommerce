@@ -7,9 +7,9 @@ import Footer from "./Components/Footer";
 import Product from "./Components/Product/Product";
 import Accessorie from "./Components/Accessorie";
 import Login from "./Components/Login";
-// import Signup from "./Components/SignUp";
 import Cart from "./Components/Cart";
 import SignUp from "./Components/SignUp";
+import ContactUs from "./Components/ContactUS";
 
 const App = () => {
   return (
@@ -23,6 +23,7 @@ const App = () => {
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="contactus" element={<ContactUs />} />
       </Routes>
       <Footer />
     </div>
